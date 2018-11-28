@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	padding-bottom: 15px;
+}
+
+h2 {
+	font-size: 1.50em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex: 4;
+	justify-content: space-between;
+	margin: 10px;
+	
+}
+
+figure {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.flex-container {
+	padding: 10px;
+ 
+ 
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.Betty {
+	margin: -5;
+}
+
+
+
