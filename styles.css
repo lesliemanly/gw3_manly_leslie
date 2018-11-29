@@ -31,7 +31,6 @@ section {
 	flex-wrap: wrap;
 	flex-direction: column;
 	flex: 4;
-	justify-content: space-between;
 	margin: 10px;
 	
 }
@@ -57,9 +56,6 @@ img {
 	justify-content: space-between;
 }
 
-.Betty {
-	margin: -5;
-}
 
 
 
